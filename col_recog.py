@@ -1,8 +1,7 @@
-import numpy as np
 import pandas as pd
 import cv2
 
-img = cv2.imread("colour.jpeg")
+img = cv2.imread("images/image.jpg")
 
 index = ["colour", "colour_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('colors.csv', names=index, header=None)
